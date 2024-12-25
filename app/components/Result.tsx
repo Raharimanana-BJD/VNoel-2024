@@ -32,8 +32,8 @@ export default function Result({ score, totalQuestions, onReset, onPlayAgain, te
               {telmaCode}
             </p>
             <p className="text-sm text-gray-600 mb-4">
-              Joyeux Noël mon amour ! Je suis si fier(e) de toi et de ta connaissance impressionnante de BTS. 
-              Tu es mon ARMY préféré(e) et je t&apos;aime plus que tous les albums de BTS réunis. 
+              Joyeux Noël mon amour ! Je suis si fier de toi et de ta connaissance impressionnante de BTS. 
+              Tu es mon ARMY préféré et je t&apos;aime plus que tous les albums de BTS réunis. 
               J&apos;espère que ce petit jeu t&apos;a plu autant que tu me plais chaque jour. 
               Passons un Noël magique ensemble ! ❤️
             </p>
