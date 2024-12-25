@@ -44,7 +44,7 @@ export default function Result({ score, totalQuestions, onReset, onPlayAgain, te
         ) : (
           <>
             <p className="text-sm text-gray-600 mb-4">
-              Ne t&apos;inquiète pas, mon amour. Tu restes mon ARMY préféré(e) même si tu n&apos;as pas gagné cette fois-ci. 
+              Ne t&apos;inquiète pas, mon amour. Tu restes mon ARMY préféré même si tu n&apos;as pas gagné cette fois-ci. 
               Que dirais-tu de réfléchir encore un peu sur BTS et de réessayer ? 
               Je t&apos;aime, quoi qu&apos;il arrive ! ❤️
             </p>

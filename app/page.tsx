@@ -5,7 +5,7 @@ import Quiz from "./components/Quiz";
 import Result from "./components/Result";
 import Snowfall from "./components/Snowfall";
 
-const telmaCodes = ["31554255492588", "76207287375368"];
+const telmaCodes = ["31554255492588", "76207287375368", "36689719699455", "99863679435474"];
 
 const btsQuestions = [
   {
