@@ -92,3 +92,27 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+.marquee-text-track p {
+  @apply px-3 py-1 bg-gray-100 rounded-full text-sm border;
+}
+
+.marquee-text-track {
+  animation: marquee-move-text 20s linear infinite forwards;
+}
+
+.fade-out {
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 5rem,
+    black calc(100% - 5rem),
+    transparent
+  );
+}
+
+@keyframes marquee-move-text {
+  to {
+    transform: translateX(-50%);
+  }
+}

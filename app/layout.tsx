@@ -26,11 +26,14 @@ export default function RootLayout({
             </Link>
           </div>
           <nav className="hidden md:flex gap-6">
+            <Link href="/" className="text-sm">
+              Aceille
+            </Link>
             <Link href="/about" className="text-sm">
-              About
+              A propos
             </Link>
             <Link href="/projects" className="text-sm">
-              Projects
+              Projets
             </Link>
           </nav>
           <nav className="hidden md:flex gap-4">

@@ -127,7 +127,7 @@ export default function ProjectsPage() {
           Projets Récents
         </motion.h1>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <motion.div
               key={project.title}

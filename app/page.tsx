@@ -29,7 +29,7 @@ export default function Page() {
         initial="initial"
         animate="animate"
         variants={stagger}
-        className="container text-center px-4 pt-36 pb-20 max-md:pb-[8.5rem]"
+        className="container text-center px-4 pt-36"
       >
         <motion.div
           variants={fadeIn}
@@ -51,7 +51,8 @@ export default function Page() {
         >
           Braharim
           <br />
-          Développeur Web
+          Développeur Web <br />
+          et Designer UX/UI
         </motion.h1>
         <motion.div variants={fadeIn}>
           <Link href="/about">
@@ -63,34 +64,103 @@ export default function Page() {
       </motion.section>
 
       {/* LOGO */}
-      {/* <div className="marquee w-full overflow-hidden bg-white py-10">
-        <div className="marquee-track flex gap-2">
-          {[
-            "HTML/CSS",
-            "PHP",
-            "JavaScript",
-            "React",
-            "Next.js",
-            "Vue.js",
-            "Laravel",
-            "Prisma",
-            "MySQL",
-            "Postgres",
-            "Bootstrap",
-            "Tailwind CSS",
-            "Figma",
-            "VSCode",
-            "Xamp",
-          ].map((skill) => (
-            <span
-              key={skill}
-              className="marquee-item px-3 py-1 bg-gray-100 rounded-full text-sm"
-            >
-              {skill}
-            </span>
-          ))}
+      <div className="wrapper p-16 max-md:p-2 max-md:pt-9">
+        <div className="marquee-text max-w-6xl md:max-w-4xl mx-auto overflow-x-clip fade-out">
+          <div className="marquee-text-track flex gap-4 w-[max-content]">
+            {/* {[
+              "HTML/CSS",
+              "PHP",
+              "JavaScript",
+              "React",
+              "Next.js",
+              "Laravel",
+              "Prisma",
+              "MySQL",
+              "Postgres",
+              "Bootstrap",
+              "Tailwind CSS",
+              "Figma",
+              "VSCode",
+              "Xamp",
+              "HTML/CSS",
+              "PHP",
+              "JavaScript",
+              "React",
+              "Next.js",
+              "Laravel",
+              "Prisma",
+              "MySQL",
+              "Postgres",
+              "Bootstrap",
+              "Tailwind CSS",
+              "Figma",
+              "VSCode",
+              "Xamp",
+            ].map((skill, index) => (
+              <>
+                <span
+                  key={index}
+                  className="px-3 py-1 bg-gray-100 rounded-full text-sm border"
+                >
+                  {skill}
+                </span>
+              </>
+            ))} */}
+            <p>HTML/CSS</p>
+            <p>PHP</p>
+            <p>JavaScript</p>
+            <p>React</p>
+            <p>Next JS</p>
+            <p>TypeScript</p>
+            <p>Laravel</p>
+            <p>Prisma</p>
+            <p>PostgresQL</p>
+            <p>Tailwind CSS</p>
+            <p>Figma</p>
+            <p>VSCode</p>
+            <p>Adobe Xd</p>
+            <p>Adobe Ps</p>
+            <p>Adobe Ai</p>
+            <p>Adobe Af</p>
+            <p>Adobe Pro</p>
+            <p>HTML/CSS</p>
+            <p>PHP</p>
+            <p>JavaScript</p>
+            <p>React</p>
+            <p>Next JS</p>
+            <p>TypeScript</p>
+            <p>Laravel</p>
+            <p>Prisma</p>
+            <p>PostgresQL</p>
+            <p>Tailwind CSS</p>
+            <p>Figma</p>
+            <p>VSCode</p>
+            <p>Adobe Xd</p>
+            <p>Adobe Ps</p>
+            <p>Adobe Ai</p>
+            <p>Adobe Af</p>
+            <p>Adobe Pro</p>
+
+            <p aria-hidden="true">HTML/CSS</p>
+            <p aria-hidden="true">PHP</p>
+            <p aria-hidden="true">JavaScript</p>
+            <p aria-hidden="true">React</p>
+            <p aria-hidden="true">Next JS</p>
+            <p aria-hidden="true">TypeScript</p>
+            <p aria-hidden="true">Laravel</p>
+            <p aria-hidden="true">Prisma</p>
+            <p aria-hidden="true">PostgresQL</p>
+            <p aria-hidden="true">Tailwind CSS</p>
+            <p aria-hidden="true">Figma</p>
+            <p aria-hidden="true">VSCode</p>
+            <p aria-hidden="true">Adobe Xd</p>
+            <p aria-hidden="true">Adobe Ps</p>
+            <p aria-hidden="true">Adobe Ai</p>
+            <p aria-hidden="true">Adobe Af</p>
+            <p aria-hidden="true">Adobe Pro</p>
+          </div>
         </div>
-      </div> */}
+      </div>
       {/* Services Section */}
       <motion.section
         initial="initial"
